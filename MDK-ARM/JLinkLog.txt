@@ -1,0 +1,497 @@
+T310C 002:247.793   SEGGER J-Link V7.98c Log File
+T310C 002:247.923   DLL Compiled: Aug  7 2024 15:37:06
+T310C 002:247.937   Logging started @ 2024-11-29 09:37
+T310C 002:247.949   Process: D:\Software\Keil\UV4\UV4.exe
+T310C 002:247.963 - 2247.961ms
+T310C 002:247.981 JLINK_SetWarnOutHandler(...)
+T310C 002:247.993 - 0.014ms
+T310C 002:248.008 JLINK_OpenEx(...)
+T310C 002:250.060   
+  ***** Error: 
+T310C 002:250.091   Cannot connect to J-Link.
+T310C 002:250.170 - 2.161ms returns "Cannot connect to J-Link."
+T310C 002:250.342 
+  ***** Warning: 
+T310C 002:250.360 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T310C 002:250.378 JLINK_GetHardwareVersion()
+T310C 002:252.052   
+  ***** Error: 
+T310C 002:252.352   Cannot connect to J-Link.
+T310C 002:252.399 - 2.021ms
+T310C 004:233.564 JLINK_GetDLLVersion()
+T310C 004:233.589 - 0.028ms returns 79803
+T310C 004:233.599 
+  ***** Warning: 
+T310C 004:233.605 API Error: API JLINK_CORE_GetFound function called before JLINKARM_Open()
+T310C 004:233.613 JLINK_CORE_GetFound()
+T310C 004:235.667   
+  ***** Error: 
+T310C 004:235.681   Cannot connect to J-Link.
+T310C 004:235.762 - 2.148ms
+T310C 004:235.777 
+  ***** Warning: 
+T310C 004:235.783 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T310C 004:235.792 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T310C 004:237.757   
+  ***** Error: 
+T310C 004:237.769   Cannot connect to J-Link.
+T310C 004:237.826 - 2.034ms
+T310C 004:237.836 
+  ***** Warning: 
+T310C 004:237.842 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T310C 004:237.854 JLINK_GetDebugInfo(0x01 = Unknown)
+T310C 004:239.599   
+  ***** Error: 
+T310C 004:239.607   Cannot connect to J-Link.
+T310C 004:239.651 - 1.801ms
+T310C 004:239.657 JLINK_GetDeviceFamily
+T310C 004:239.663 - 0.006ms returns 0
+T310C 004:239.669 
+  ***** Warning: 
+T310C 004:239.674 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T310C 004:239.681 JLINK_GetDebugInfo(0x01 = Unknown)
+T310C 004:241.157   
+  ***** Error: 
+T310C 004:241.163   Cannot connect to J-Link.
+T310C 004:241.198 - 1.517ms
+T310C 004:241.202 JLINK_GetDeviceFamily
+T310C 004:241.205 - 0.003ms returns 0
+T310C 004:241.209 
+  ***** Warning: 
+T310C 004:241.213 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T310C 004:241.219 JLINK_GetDebugInfo(0x10F = JLINKARM_DEBUG_INFO_HAS_CORTEX_M_SECURITY_EXT_INDEX)
+T310C 004:242.529   
+  ***** Error: 
+T310C 004:242.536   Cannot connect to J-Link.
+T310C 004:242.570 - 1.352ms
+T310C 005:212.971 
+  ***** Warning: 
+T310C 005:212.993 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:213.001 JLINK_SetSpeed(50000)
+T310C 005:214.489   
+  ***** Error: 
+T310C 005:214.498   Cannot connect to J-Link.
+T310C 005:214.556 - 1.555ms
+T310C 005:214.561 JLINK_HasError()
+T310C 005:214.571 
+  ***** Warning: 
+T310C 005:214.575 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:214.580 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:215.965   
+  ***** Error: 
+T310C 005:215.972   Cannot connect to J-Link.
+T310C 005:216.011 - 1.430ms
+T310C 005:216.016 
+  ***** Warning: 
+T310C 005:216.020 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:216.025 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:217.278   
+  ***** Error: 
+T310C 005:217.284   Cannot connect to J-Link.
+T310C 005:217.316 - 1.290ms
+T310C 005:217.321 
+  ***** Warning: 
+T310C 005:217.325 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:217.329 JLINK_SetSpeed(33000)
+T310C 005:218.672   
+  ***** Error: 
+T310C 005:218.680   Cannot connect to J-Link.
+T310C 005:218.719 - 1.389ms
+T310C 005:218.723 JLINK_HasError()
+T310C 005:218.729 
+  ***** Warning: 
+T310C 005:218.733 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:218.737 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:219.945   
+  ***** Error: 
+T310C 005:219.951   Cannot connect to J-Link.
+T310C 005:220.013 - 1.276ms
+T310C 005:220.019 
+  ***** Warning: 
+T310C 005:220.023 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:220.028 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:221.414   
+  ***** Error: 
+T310C 005:221.423   Cannot connect to J-Link.
+T310C 005:221.457 - 1.429ms
+T310C 005:221.462 
+  ***** Warning: 
+T310C 005:221.466 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:221.471 JLINK_SetSpeed(25000)
+T310C 005:222.783   
+  ***** Error: 
+T310C 005:222.791   Cannot connect to J-Link.
+T310C 005:222.823 - 1.351ms
+T310C 005:222.827 JLINK_HasError()
+T310C 005:222.832 
+  ***** Warning: 
+T310C 005:222.836 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:222.840 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:224.252   
+  ***** Error: 
+T310C 005:224.260   Cannot connect to J-Link.
+T310C 005:224.293 - 1.452ms
+T310C 005:224.298 
+  ***** Warning: 
+T310C 005:224.302 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:224.307 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:225.596   
+  ***** Error: 
+T310C 005:225.603   Cannot connect to J-Link.
+T310C 005:225.637 - 1.329ms
+T310C 005:225.642 
+  ***** Warning: 
+T310C 005:225.646 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:225.651 JLINK_SetSpeed(20000)
+T310C 005:226.952   
+  ***** Error: 
+T310C 005:226.959   Cannot connect to J-Link.
+T310C 005:226.989 - 1.338ms
+T310C 005:226.993 JLINK_HasError()
+T310C 005:226.997 
+  ***** Warning: 
+T310C 005:227.001 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:227.006 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:228.221   
+  ***** Error: 
+T310C 005:228.229   Cannot connect to J-Link.
+T310C 005:228.258 - 1.252ms
+T310C 005:228.263 
+  ***** Warning: 
+T310C 005:228.267 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:228.271 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:229.620   
+  ***** Error: 
+T310C 005:229.627   Cannot connect to J-Link.
+T310C 005:229.657 - 1.386ms
+T310C 005:229.662 
+  ***** Warning: 
+T310C 005:229.666 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:229.671 JLINK_SetSpeed(10000)
+T310C 005:230.873   
+  ***** Error: 
+T310C 005:230.878   Cannot connect to J-Link.
+T310C 005:230.907 - 1.235ms
+T310C 005:230.911 JLINK_HasError()
+T310C 005:230.915 
+  ***** Warning: 
+T310C 005:230.919 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:230.924 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:232.423   
+  ***** Error: 
+T310C 005:232.429   Cannot connect to J-Link.
+T310C 005:232.461 - 1.537ms
+T310C 005:232.466 
+  ***** Warning: 
+T310C 005:232.470 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:232.475 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:233.737   
+  ***** Error: 
+T310C 005:233.745   Cannot connect to J-Link.
+T310C 005:233.781 - 1.306ms
+T310C 005:233.786 
+  ***** Warning: 
+T310C 005:233.790 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:233.795 JLINK_SetSpeed(5000)
+T310C 005:235.104   
+  ***** Error: 
+T310C 005:235.110   Cannot connect to J-Link.
+T310C 005:235.153 - 1.357ms
+T310C 005:235.157 JLINK_HasError()
+T310C 005:235.161 
+  ***** Warning: 
+T310C 005:235.165 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:235.170 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:236.361   
+  ***** Error: 
+T310C 005:236.366   Cannot connect to J-Link.
+T310C 005:236.394 - 1.224ms
+T310C 005:236.399 
+  ***** Warning: 
+T310C 005:236.403 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:236.408 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:237.742   
+  ***** Error: 
+T310C 005:237.749   Cannot connect to J-Link.
+T310C 005:237.784 - 1.375ms
+T310C 005:237.789 
+  ***** Warning: 
+T310C 005:237.793 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:237.827 JLINK_SetSpeed(3000)
+T310C 005:239.033   
+  ***** Error: 
+T310C 005:239.040   Cannot connect to J-Link.
+T310C 005:239.074 - 1.246ms
+T310C 005:239.078 JLINK_HasError()
+T310C 005:239.082 
+  ***** Warning: 
+T310C 005:239.086 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:239.091 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:240.442   
+  ***** Error: 
+T310C 005:240.453   Cannot connect to J-Link.
+T310C 005:240.484 - 1.393ms
+T310C 005:240.489 
+  ***** Warning: 
+T310C 005:240.493 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:240.498 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:241.780   
+  ***** Error: 
+T310C 005:241.787   Cannot connect to J-Link.
+T310C 005:241.822 - 1.324ms
+T310C 005:241.827 
+  ***** Warning: 
+T310C 005:241.831 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:241.836 JLINK_SetSpeed(2000)
+T310C 005:243.159   
+  ***** Error: 
+T310C 005:243.165   Cannot connect to J-Link.
+T310C 005:243.197 - 1.360ms
+T310C 005:243.201 JLINK_HasError()
+T310C 005:243.205 
+  ***** Warning: 
+T310C 005:243.209 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:243.214 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:244.470   
+  ***** Error: 
+T310C 005:244.476   Cannot connect to J-Link.
+T310C 005:244.505 - 1.291ms
+T310C 005:244.514 
+  ***** Warning: 
+T310C 005:244.517 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:244.523 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:245.851   
+  ***** Error: 
+T310C 005:245.859   Cannot connect to J-Link.
+T310C 005:245.894 - 1.371ms
+T310C 005:245.900 
+  ***** Warning: 
+T310C 005:245.904 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:245.909 JLINK_SetSpeed(1000)
+T310C 005:247.101   
+  ***** Error: 
+T310C 005:247.107   Cannot connect to J-Link.
+T310C 005:247.137 - 1.228ms
+T310C 005:247.141 JLINK_HasError()
+T310C 005:247.146 
+  ***** Warning: 
+T310C 005:247.150 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:247.155 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:248.437   
+  ***** Error: 
+T310C 005:248.443   Cannot connect to J-Link.
+T310C 005:248.472 - 1.317ms
+T310C 005:248.477 
+  ***** Warning: 
+T310C 005:248.481 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:248.486 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:249.705   
+  ***** Error: 
+T310C 005:249.711   Cannot connect to J-Link.
+T310C 005:249.739 - 1.253ms
+T310C 005:249.743 
+  ***** Warning: 
+T310C 005:249.747 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:249.752 JLINK_SetSpeed(500)
+T310C 005:251.070   
+  ***** Error: 
+T310C 005:251.078   Cannot connect to J-Link.
+T310C 005:251.113 - 1.360ms
+T310C 005:251.117 JLINK_HasError()
+T310C 005:251.121 
+  ***** Warning: 
+T310C 005:251.125 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:251.130 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:252.414   
+  ***** Error: 
+T310C 005:252.421   Cannot connect to J-Link.
+T310C 005:252.451 - 1.321ms
+T310C 005:252.456 
+  ***** Warning: 
+T310C 005:252.460 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:252.465 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:253.755   
+  ***** Error: 
+T310C 005:253.761   Cannot connect to J-Link.
+T310C 005:253.791 - 1.326ms
+T310C 005:253.796 
+  ***** Warning: 
+T310C 005:253.800 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:253.805 JLINK_SetSpeed(200)
+T310C 005:255.049   
+  ***** Error: 
+T310C 005:255.055   Cannot connect to J-Link.
+T310C 005:255.084 - 1.279ms
+T310C 005:255.088 JLINK_HasError()
+T310C 005:255.093 
+  ***** Warning: 
+T310C 005:255.097 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:255.101 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:256.424   
+  ***** Error: 
+T310C 005:256.435   Cannot connect to J-Link.
+T310C 005:256.464 - 1.363ms
+T310C 005:256.469 
+  ***** Warning: 
+T310C 005:256.473 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:256.478 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:257.671   
+  ***** Error: 
+T310C 005:257.676   Cannot connect to J-Link.
+T310C 005:257.704 - 1.226ms
+T310C 005:257.708 
+  ***** Warning: 
+T310C 005:257.712 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:257.717 JLINK_SetSpeed(100)
+T310C 005:258.982   
+  ***** Error: 
+T310C 005:258.988   Cannot connect to J-Link.
+T310C 005:259.016 - 1.299ms
+T310C 005:259.020 JLINK_HasError()
+T310C 005:259.025 
+  ***** Warning: 
+T310C 005:259.029 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:259.033 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:260.216   
+  ***** Error: 
+T310C 005:260.222   Cannot connect to J-Link.
+T310C 005:260.250 - 1.216ms
+T310C 005:260.255 
+  ***** Warning: 
+T310C 005:260.259 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:260.264 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:261.671   
+  ***** Error: 
+T310C 005:261.677   Cannot connect to J-Link.
+T310C 005:261.707 - 1.443ms
+T310C 005:261.712 
+  ***** Warning: 
+T310C 005:261.716 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:261.721 JLINK_SetSpeed(50)
+T310C 005:263.019   
+  ***** Error: 
+T310C 005:263.026   Cannot connect to J-Link.
+T310C 005:263.058 - 1.336ms
+T310C 005:263.062 JLINK_HasError()
+T310C 005:263.067 
+  ***** Warning: 
+T310C 005:263.071 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:263.076 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:264.372   
+  ***** Error: 
+T310C 005:264.378   Cannot connect to J-Link.
+T310C 005:264.408 - 1.332ms
+T310C 005:264.413 
+  ***** Warning: 
+T310C 005:264.417 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:264.421 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:265.625   
+  ***** Error: 
+T310C 005:265.630   Cannot connect to J-Link.
+T310C 005:265.658 - 1.237ms
+T310C 005:265.663 
+  ***** Warning: 
+T310C 005:265.667 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:265.672 JLINK_SetSpeed(20)
+T310C 005:267.012   
+  ***** Error: 
+T310C 005:267.019   Cannot connect to J-Link.
+T310C 005:267.049 - 1.378ms
+T310C 005:267.053 JLINK_HasError()
+T310C 005:267.058 
+  ***** Warning: 
+T310C 005:267.062 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:267.067 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:268.279   
+  ***** Error: 
+T310C 005:268.285   Cannot connect to J-Link.
+T310C 005:268.318 - 1.251ms
+T310C 005:268.323 
+  ***** Warning: 
+T310C 005:268.327 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:268.331 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:269.601   
+  ***** Error: 
+T310C 005:269.606   Cannot connect to J-Link.
+T310C 005:269.639 - 1.307ms
+T310C 005:269.643 
+  ***** Warning: 
+T310C 005:269.647 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:269.652 JLINK_SetSpeed(10)
+T310C 005:270.912   
+  ***** Error: 
+T310C 005:270.918   Cannot connect to J-Link.
+T310C 005:270.945 - 1.292ms
+T310C 005:270.949 JLINK_HasError()
+T310C 005:270.953 
+  ***** Warning: 
+T310C 005:270.957 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:270.961 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:272.315   
+  ***** Error: 
+T310C 005:272.324   Cannot connect to J-Link.
+T310C 005:272.354 - 1.392ms
+T310C 005:272.359 
+  ***** Warning: 
+T310C 005:272.363 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:272.368 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:273.629   
+  ***** Error: 
+T310C 005:273.634   Cannot connect to J-Link.
+T310C 005:273.663 - 1.295ms
+T310C 005:273.668 
+  ***** Warning: 
+T310C 005:273.702 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T310C 005:273.707 JLINK_SetSpeed(5)
+T310C 005:274.899   
+  ***** Error: 
+T310C 005:274.905   Cannot connect to J-Link.
+T310C 005:274.934 - 1.226ms
+T310C 005:274.939 JLINK_HasError()
+T310C 005:274.944 
+  ***** Warning: 
+T310C 005:274.947 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T310C 005:274.953 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T310C 005:276.302   
+  ***** Error: 
+T310C 005:276.311   Cannot connect to J-Link.
+T310C 005:276.363 - 1.410ms
+T310C 005:276.368 
+  ***** Warning: 
+T310C 005:276.372 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T310C 005:276.377 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T310C 005:277.574   
+  ***** Error: 
+T310C 005:277.580   Cannot connect to J-Link.
+T310C 005:277.608 - 1.231ms
+T310C 005:279.373 JLINK_IsOpen()
+T310C 005:279.383 - 0.009ms returns 0x00
+T310C 005:279.391 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T310C 005:279.979 - 0.591ms returns 0xFFFFFFFF
+T310C 005:279.988 JLINK_EnableLog(...)
+T310C 005:279.992 - 0.003ms
+T310C 005:279.998 JLINK_SetLogFile(...)
+T310C 005:280.001 - 0.005ms
+T310C 005:280.004 JLINK_SetWarnOutHandler(...)
+T310C 005:280.008 - 0.003ms
+T310C 005:280.011 JLINK_OpenEx(...)
+T310C 005:281.313   
+  ***** Error: 
+T310C 005:281.321   Cannot connect to J-Link.
+T310C 005:281.370 - 1.358ms returns "Cannot connect to J-Link."
+T310C 005:281.517 
+  ***** Warning: 
+T310C 005:281.521 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T310C 005:281.527 JLINK_GetHardwareVersion()
+T310C 005:282.812   
+  ***** Error: 
+T310C 005:282.821   Cannot connect to J-Link.
+T310C 005:282.872 - 1.344ms
+T310C 006:876.157 JLINK_IsOpen()
+T310C 006:876.181 - 0.024ms returns 0x00
+T310C 006:876.189 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T310C 006:877.212 - 1.023ms returns 0
+T310C 008:499.291 JLINK_Close()
+T310C 008:499.340 - 0.048ms
+T310C 008:499.343   
+T310C 008:499.346   Closed
