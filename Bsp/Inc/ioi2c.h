@@ -1,35 +1,18 @@
-/***********************************************
-公司：轮趣科技（东莞）有限公司
-品牌：WHEELTEC
-官网：wheeltec.net
-淘宝店铺：shop114407458.taobao.com 
-速卖通: https://minibalance.aliexpress.com/store/4455017
-版本：5.7
-修改时间：2021-04-29
-
-Brand: WHEELTEC
-Website: wheeltec.net
-Taobao shop: shop114407458.taobao.com 
-Aliexpress: https://minibalance.aliexpress.com/store/4455017
-Version:5.7
-Update：2021-04-29
-
-All rights reserved
-***********************************************/
-
 #ifndef __IOI2C_H
 #define __IOI2C_H
 
 #include "sys.h"
 
 //IO方向设置
-#define SDA_IN()  {GPIOB->CRH&=0XFFFFFF0F;GPIOB->CRH|=8<<4;}
-#define SDA_OUT() {GPIOB->CRH&=0XFFFFFF0F;GPIOB->CRH|=3<<4;}
+//#define SDA_IN()  {GPIOC->CRH&=0X0FFFFFFF;GPIOC->CRH|=8<<28;}
+//#define SDA_OUT() {GPIOC->CRH&=0X0FFFFFFF;GPIOC->CRH|=3<<28;}
+#define SDA_IN()  {GPIOC->CRH&=0X0FFFFFFF;GPIOC->CRH|=8<<0X1C;}
+#define SDA_OUT() {GPIOC->CRH&=0X0FFFFFFF;GPIOC->CRH|=3<<0X1C;}
 
 //IO操作函数	 
-#define IIC_SCL    PBout(8) //SCL
-#define IIC_SDA    PBout(9) //SDA	 
-#define READ_SDA   PBin(9)  //输入SDA 
+#define IIC_SCL    PCout(14) //SCL
+#define IIC_SDA    PCout(15) //SDA	 
+#define READ_SDA   PCin(15)  //输入SDA 
 
 //IIC所有操作函数
 void IIC_Init(void);           //初始化IIC的IO口				 

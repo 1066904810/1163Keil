@@ -1,5 +1,5 @@
-code\inv_mpu_dmp_motion_driver.o: ..\Bsp\Src\inv_mpu_dmp_motion_driver.c
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/sys.h
+code\inv_mpu_dmp_motion_driver.o: ..\Dev\Src\inv_mpu_dmp_motion_driver.c
+code\inv_mpu_dmp_motion_driver.o: ../System/Inc/sys.h
 code\inv_mpu_dmp_motion_driver.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 code\inv_mpu_dmp_motion_driver.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
 code\inv_mpu_dmp_motion_driver.o: ../Drivers/CMSIS/Include/core_cm3.h
@@ -31,13 +31,13 @@ code\inv_mpu_dmp_motion_driver.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_
 code\inv_mpu_dmp_motion_driver.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 code\inv_mpu_dmp_motion_driver.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 code\inv_mpu_dmp_motion_driver.o: ../Core/Inc/main.h
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/inv_mpu.h
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/inv_mpu_dmp_motion_driver.h
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/mpu6050.h
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/sys.h
+code\inv_mpu_dmp_motion_driver.o: ../Dev/Inc/inv_mpu.h
+code\inv_mpu_dmp_motion_driver.o: ../Dev/Inc/inv_mpu_dmp_motion_driver.h
+code\inv_mpu_dmp_motion_driver.o: ../Dev/Inc/mpu6050.h
+code\inv_mpu_dmp_motion_driver.o: ../System/Inc/sys.h
 code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/ioi2c.h
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/dmpKey.h
-code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/dmpmap.h
+code\inv_mpu_dmp_motion_driver.o: ../Dev/Inc/dmpKey.h
+code\inv_mpu_dmp_motion_driver.o: ../Dev/Inc/dmpmap.h
 code\inv_mpu_dmp_motion_driver.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\math.h
 code\inv_mpu_dmp_motion_driver.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\string.h
 code\inv_mpu_dmp_motion_driver.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h
