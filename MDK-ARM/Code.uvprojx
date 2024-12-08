@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Bsp/Inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Bsp/Inc;..\Dev\MPU6050;..\System</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -516,24 +516,39 @@
               <FilePath>..\Bsp\Src\delay.c</FilePath>
             </File>
             <File>
-              <FileName>inv_mpu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\Src\inv_mpu.c</FilePath>
-            </File>
-            <File>
-              <FileName>inv_mpu_dmp_motion_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\Src\inv_mpu_dmp_motion_driver.c</FilePath>
-            </File>
-            <File>
               <FileName>IOI2C.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Src\IOI2C.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Dev</GroupName>
+          <Files>
+            <File>
+              <FileName>inv_mpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Dev\MPU6050\inv_mpu.c</FilePath>
+            </File>
+            <File>
+              <FileName>inv_mpu_dmp_motion_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Dev\MPU6050\inv_mpu_dmp_motion_driver.c</FilePath>
+            </File>
             <File>
               <FileName>MPU6050.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Bsp\Src\MPU6050.c</FilePath>
+              <FilePath>..\Dev\MPU6050\MPU6050.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>DeskBoard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\System\DeskBoard.c</FilePath>
             </File>
           </Files>
         </Group>

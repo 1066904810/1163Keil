@@ -1,5 +1,5 @@
-code\mpu6050.o: ..\Bsp\Src\MPU6050.c
-code\mpu6050.o: ../Bsp/Inc/MPU6050.h
+code\mpu6050.o: ..\Dev\MPU6050\MPU6050.c
+code\mpu6050.o: ..\Dev\MPU6050\MPU6050.h
 code\mpu6050.o: ../Bsp/Inc/sys.h
 code\mpu6050.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 code\mpu6050.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
@@ -32,13 +32,13 @@ code\mpu6050.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 code\mpu6050.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 code\mpu6050.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 code\mpu6050.o: ../Core/Inc/main.h
-code\mpu6050.o: ../Bsp/Inc/inv_mpu.h
-code\mpu6050.o: ../Bsp/Inc/inv_mpu_dmp_motion_driver.h
-code\mpu6050.o: ../Bsp/Inc/mpu6050.h
+code\mpu6050.o: ..\Dev\MPU6050\inv_mpu.h
+code\mpu6050.o: ..\Dev\MPU6050\inv_mpu_dmp_motion_driver.h
+code\mpu6050.o: ..\Dev\MPU6050\mpu6050.h
 code\mpu6050.o: ../Bsp/Inc/ioi2c.h
 code\mpu6050.o: ../Bsp/Inc/sys.h
-code\mpu6050.o: ../Bsp/Inc/dmpKey.h
-code\mpu6050.o: ../Bsp/Inc/dmpmap.h
+code\mpu6050.o: ..\Dev\MPU6050\dmpKey.h
+code\mpu6050.o: ..\Dev\MPU6050\dmpmap.h
 code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\math.h
 code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\string.h
 code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h
