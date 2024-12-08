@@ -25,7 +25,6 @@
 "code\inv_mpu_dmp_motion_driver.o"
 "code\ioi2c.o"
 "code\mpu6050.o"
-"code\sys.o"
 --library_type=microlib --strict --scatter "Code\Code.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
