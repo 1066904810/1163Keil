@@ -20,12 +20,16 @@
 "code\stm32f1xx_hal_tim_ex.o"
 "code\stm32f1xx_hal_uart.o"
 "code\system_stm32f1xx.o"
-"code\delay.o"
 "code\ioi2c.o"
+"code\pwm.o"
+"code\pid.o"
+"code\enc.o"
 "code\inv_mpu.o"
 "code\inv_mpu_dmp_motion_driver.o"
 "code\mpu6050.o"
+"code\dcmotor.o"
 "code\deskboard.o"
+"code\delay.o"
 --library_type=microlib --strict --scatter "Code\Code.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

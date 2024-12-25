@@ -1,5 +1,5 @@
-code\delay.o: ..\Bsp\Src\delay.c
-code\delay.o: ../Bsp/Inc/delay.h
+code\delay.o: ..\System\delay.c
+code\delay.o: ..\System\delay.h
 code\delay.o: ../Bsp/Inc/sys.h
 code\delay.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 code\delay.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
@@ -32,13 +32,13 @@ code\delay.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 code\delay.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 code\delay.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 code\delay.o: ../Core/Inc/main.h
-code\delay.o: ..\Dev\MPU6050\inv_mpu.h
-code\delay.o: ..\Dev\MPU6050\inv_mpu_dmp_motion_driver.h
-code\delay.o: ..\Dev\MPU6050\mpu6050.h
+code\delay.o: ../Dev/MPU6050/inv_mpu.h
+code\delay.o: ../Dev/MPU6050/inv_mpu_dmp_motion_driver.h
+code\delay.o: ../Dev/MPU6050/mpu6050.h
 code\delay.o: ../Bsp/Inc/sys.h
 code\delay.o: ../Bsp/Inc/ioi2c.h
-code\delay.o: ..\Dev\MPU6050\dmpKey.h
-code\delay.o: ..\Dev\MPU6050\dmpmap.h
+code\delay.o: ../Dev/MPU6050/dmpKey.h
+code\delay.o: ../Dev/MPU6050/dmpmap.h
 code\delay.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\math.h
 code\delay.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\string.h
 code\delay.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h

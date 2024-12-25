@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Bsp/Inc;..\Dev\MPU6050;..\System</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../System;../Bsp/Inc;../Dev/MPU6050;../Dev/DCMotor</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -511,14 +511,24 @@
           <GroupName>Bsp</GroupName>
           <Files>
             <File>
-              <FileName>delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\Src\delay.c</FilePath>
-            </File>
-            <File>
               <FileName>IOI2C.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Src\IOI2C.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\Src\pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\Src\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>enc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\Src\enc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -540,6 +550,11 @@
               <FileType>1</FileType>
               <FilePath>..\Dev\MPU6050\MPU6050.c</FilePath>
             </File>
+            <File>
+              <FileName>DCmotor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Dev\DCMotor\DCmotor.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -549,6 +564,11 @@
               <FileName>DeskBoard.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\System\DeskBoard.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\System\delay.c</FilePath>
             </File>
           </Files>
         </Group>

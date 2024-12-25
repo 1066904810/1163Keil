@@ -21,8 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "mpu6050.h"
 #include "delay.h"
+#include "DeskBoard.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -110,8 +110,11 @@ int main(void)
   MX_TIM4_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-		MPU6050_initialize();			//MPU6050初始化
-    DMP_Init();		//dmp初始化
+	SysInit();
+	DevInit();
+	ParamInit();
+//		MPU6050_initialize();			//MPU6050初始化
+//    DMP_Init();		//dmp初始化
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -119,8 +122,8 @@ int main(void)
   while (1)
   {
 		
-		Read_DMP();
-
+		GetData();
+		Control();
 //		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_8,GPIO_PIN_SET);
 		
     /* USER CODE END WHILE */
