@@ -1,7 +1,7 @@
 #include "pid.h"
 #include <math.h>
 
-float PIDCalculate(PIDClass* pid,float measure, float ref) {  // 堵转检测
+ float PIDCalculate(PIDClass* pid,float measure, float ref) {  // 堵转检测
   if (pid->Config.Improve & PID_ERROR_HANDLE) {
     FPidErrorHandle(pid);
   }

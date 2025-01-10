@@ -10,13 +10,13 @@ void DControl(DCMotorClass * motor,float target)
 	if(target<0)
 			{
 				target=-target;
-				DevGPIO_WritePin(motor->GPIOx,motor->GPIO_PIN_INT1x,GPIO_PIN_RESET);
-				DevGPIO_WritePin(motor->GPIOx,motor->GPIO_PIN_INT2x,  GPIO_PIN_SET);
+				Bsp_GPIO_WritePin(motor->Motor_INT1,GPIO_PIN_RESET);
+				Bsp_GPIO_WritePin(motor->Motor_INT2,  GPIO_PIN_SET);
 			}
 			else       
 			{
-				DevGPIO_WritePin(motor->GPIOx,motor->GPIO_PIN_INT1x,  GPIO_PIN_SET);
-				DevGPIO_WritePin(motor->GPIOx,motor->GPIO_PIN_INT2x,GPIO_PIN_RESET);
+				Bsp_GPIO_WritePin(motor->Motor_INT1,  GPIO_PIN_SET);
+				Bsp_GPIO_WritePin(motor->Motor_INT2,GPIO_PIN_RESET);
 			}
 	Bsp_PWM_SetCompare(motor->BSP_PWM_SERVO_x,target);
 

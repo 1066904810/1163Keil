@@ -47,4 +47,5 @@ code\main.o: ../System/DeskBoard.h
 code\main.o: ../Bsp/Inc/pwm.h
 code\main.o: ../Dev/DCMotor/DCmotor.h
 code\main.o: ../Bsp/Inc/enc.h
+code\main.o: ../Bsp/Inc/gpio.h
 code\main.o: ../Bsp/Inc/pid.h

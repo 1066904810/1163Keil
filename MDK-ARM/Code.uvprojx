@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../System;../Bsp/Inc;../Dev/MPU6050;../Dev/DCMotor</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../System;../Bsp/Inc;../Dev/MPU6050;../Dev/DCMotor;..\Dev\Usart_Screen</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -530,6 +530,16 @@
               <FileType>1</FileType>
               <FilePath>..\Bsp\Src\enc.c</FilePath>
             </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\Src\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\Src\usart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -554,6 +564,11 @@
               <FileName>DCmotor.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Dev\DCMotor\DCmotor.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart_screen.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Dev\Usart_Screen\usart_screen.c</FilePath>
             </File>
           </Files>
         </Group>
