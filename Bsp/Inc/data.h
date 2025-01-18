@@ -7,7 +7,10 @@ typedef struct{
 	float Yaw;
 }EulrData;
 
-
+typedef enum{
+	CW,
+	CCW
+}Dir;
 
 
 #endif

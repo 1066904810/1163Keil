@@ -4,19 +4,25 @@
 #include "enc.h"
 #include "pwm.h"
 #include "gpio.h"
+#include "data.h"
 
 #define DevGetSpeed GetEncoder
 
 typedef   GPIO_PinState      DevGPIOState;
-typedef		TIM_HandleTypeDef  DevEncx;  
-
-
+typedef enum{
+	STOP,
+	START
+}Motor_State;
 typedef struct
 {
 		bsp_gpio_t Motor_DIR;
 		bsp_gpio_t Motor_EN;
+		bsp_gpio_t Motor_Trig;
 		
-		DevEncx htimx;
+		Dir direction;
+		Motor_State state;
+		int16_t enc;
+		
 		bsp_pwm_channel_t BSP_PWM_SERVO_x;
 	
 }BLDCMotorClass;
@@ -24,7 +30,8 @@ typedef struct
 void 		 BLDControl				(BLDCMotorClass * motor, float);
 void 		 BLDCMotor_Start	(BLDCMotorClass * motor);
 void 		 BLDCMotor_Stop		(BLDCMotorClass * motor);
-//uint16_t GetEncoder			(BLDCMotorClass * motor);
+void 		 BLDC_GetEncoder	(BLDCMotorClass * motor);
+void 		 BLDC_TrigCtrl		(BLDCMotorClass * motor, int16_t trig);
 
 
 #endif

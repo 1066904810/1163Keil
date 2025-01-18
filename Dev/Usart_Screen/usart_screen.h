@@ -15,7 +15,7 @@ typedef enum{
 }screen_mode_t;
 
 screen_mode_t Screen_ModeProcess(void);
-//void Screen_DataProcess(void);
+void Screen_DataProcess(void);
 
 
 #endif
