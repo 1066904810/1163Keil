@@ -2,7 +2,7 @@
 
 /*
 	直流有刷电机控制函数：
-	占空比选择0~1000
+	占空比选择-1000~1000
 */
 void DControl(DCMotorClass * motor,float target)
 {
@@ -33,12 +33,11 @@ void DCMotor_Stop(DCMotorClass * motor)
 
 	Bsp_PWM_Stop(motor->BSP_PWM_SERVO_x);
 
-	
 }
 uint16_t GetEncoder(DCMotorClass * motor)
 {
 	
 	return Bsp_GetEncoder(&motor->htimx);
 
-} 
+}
 

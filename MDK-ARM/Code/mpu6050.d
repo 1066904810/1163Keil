@@ -43,3 +43,4 @@ code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\math.h
 code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\string.h
 code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h
 code\mpu6050.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+code\mpu6050.o: ../Bsp/Inc/data.h

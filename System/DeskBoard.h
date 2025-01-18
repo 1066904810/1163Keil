@@ -1,14 +1,20 @@
 #ifndef __DESKBOARD_H
 #define __DESKBOARD_H
 #include "main.h"
-#include "mpu6050.h"
+#include "sys.h"
+#include "data.h"
+
 #include "delay.h"
 #include "pwm.h"
-#include "DCmotor.h"
 #include "enc.h"
 #include "pid.h"
 #include "gpio.h"
+#include "usart.h"
 
+#include "mpu6050.h"
+#include "DCmotor.h"
+#include "BLDCMotor.h"
+#include "usart_screen.h"
 typedef enum{
 
 	BOARD_RETRACT,
@@ -17,12 +23,6 @@ typedef enum{
 	BOARD_HORIZON,
 	BOARD_PARALLEL
 }Mode;
-
-typedef struct{
-	float Roll;
-	float Pitch;
-	float Yaw;
-}EulrData;
 
 extern ADC_HandleTypeDef hadc1;
 

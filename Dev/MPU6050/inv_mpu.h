@@ -118,5 +118,7 @@ int mpu_read_reg(unsigned char reg, unsigned char *data);
 int mpu_run_self_test(long *gyro, long *accel);
 int mpu_register_tap_cb(void (*func)(unsigned char, unsigned char));
 void myget_ms(unsigned long *time);
+void mpu_setaddr(unsigned char addr);
+
 #endif  /* #ifndef _INV_MPU_H_ */
 

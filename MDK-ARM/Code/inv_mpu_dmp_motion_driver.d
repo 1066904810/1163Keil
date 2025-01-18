@@ -35,6 +35,7 @@ code\inv_mpu_dmp_motion_driver.o: ../Dev/MPU6050/inv_mpu.h
 code\inv_mpu_dmp_motion_driver.o: ../Dev/MPU6050/inv_mpu_dmp_motion_driver.h
 code\inv_mpu_dmp_motion_driver.o: ../Dev/MPU6050/mpu6050.h
 code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/sys.h
+code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/data.h
 code\inv_mpu_dmp_motion_driver.o: ../Bsp/Inc/ioi2c.h
 code\inv_mpu_dmp_motion_driver.o: ../Dev/MPU6050/dmpKey.h
 code\inv_mpu_dmp_motion_driver.o: ../Dev/MPU6050/dmpmap.h

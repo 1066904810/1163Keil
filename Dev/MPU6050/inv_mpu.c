@@ -297,7 +297,7 @@ struct test_s {
 /* Gyro driver state variables. */
 struct gyro_state_s {
     const struct gyro_reg_s *reg;
-    const struct hw_s *hw;
+    struct hw_s *hw;
     struct chip_cfg_s chip_cfg;
     const struct test_s *test;
 };
@@ -498,7 +498,7 @@ const struct hw_s hw = {
 #endif
 };
 */
-const struct hw_s hw={
+struct hw_s hw={
   0x68,	 //addr
   1024,	 //max_fifo
   118,	 //num_reg
@@ -574,7 +574,7 @@ static struct gyro_state_s st = {
     .hw = &hw,
     .test = &test
 };	*/
-static struct gyro_state_s st={
+struct gyro_state_s st={
   &reg,
   &hw,
   {0},
@@ -2850,6 +2850,11 @@ lp_int_restore:
 void myget_ms(unsigned long *time)
 {
 
+}
+void mpu_setaddr(unsigned char addr)
+{
+	st.chip_cfg.sensors=1;
+	st.hw->addr=addr;
 }
 /**
  *  @}

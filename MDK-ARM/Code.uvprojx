@@ -82,7 +82,7 @@
           </BeforeMake>
           <AfterMake>
             <RunUserProg1>0</RunUserProg1>
-            <RunUserProg2>1</RunUserProg2>
+            <RunUserProg2>0</RunUserProg2>
             <UserProg1Name></UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
@@ -315,7 +315,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>4</Optim>
+            <Optim>2</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../System;../Bsp/Inc;../Dev/MPU6050;../Dev/DCMotor;..\Dev\Usart_Screen</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../System;../Bsp/Inc;../Dev/MPU6050;../Dev/DCMotor;../Dev/Usart_Screen;../Dev/BLDC</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -569,6 +569,11 @@
               <FileName>usart_screen.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Dev\Usart_Screen\usart_screen.c</FilePath>
+            </File>
+            <File>
+              <FileName>BLDCmotor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Dev\BLDC\BLDCmotor.c</FilePath>
             </File>
           </Files>
         </Group>

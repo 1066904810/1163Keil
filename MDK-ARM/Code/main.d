@@ -36,6 +36,7 @@ code\main.o: ../Dev/MPU6050/inv_mpu.h
 code\main.o: ../Dev/MPU6050/inv_mpu_dmp_motion_driver.h
 code\main.o: ../Dev/MPU6050/mpu6050.h
 code\main.o: ../Bsp/Inc/sys.h
+code\main.o: ../Bsp/Inc/data.h
 code\main.o: ../Bsp/Inc/ioi2c.h
 code\main.o: ../Dev/MPU6050/dmpKey.h
 code\main.o: ../Dev/MPU6050/dmpmap.h
@@ -45,7 +46,10 @@ code\main.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h
 code\main.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
 code\main.o: ../System/DeskBoard.h
 code\main.o: ../Bsp/Inc/pwm.h
-code\main.o: ../Dev/DCMotor/DCmotor.h
 code\main.o: ../Bsp/Inc/enc.h
-code\main.o: ../Bsp/Inc/gpio.h
 code\main.o: ../Bsp/Inc/pid.h
+code\main.o: ../Bsp/Inc/gpio.h
+code\main.o: ../Bsp/Inc/usart.h
+code\main.o: ../Dev/DCMotor/DCmotor.h
+code\main.o: ../Dev/BLDC/BLDCMotor.h
+code\main.o: ../Dev/Usart_Screen/usart_screen.h

@@ -31,6 +31,7 @@
 "code\mpu6050.o"
 "code\dcmotor.o"
 "code\usart_screen.o"
+"code\bldcmotor.o"
 "code\deskboard.o"
 "code\delay.o"
 --library_type=microlib --strict --scatter "Code\Code.sct"

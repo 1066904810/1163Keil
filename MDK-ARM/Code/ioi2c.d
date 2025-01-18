@@ -36,6 +36,7 @@ code\ioi2c.o: ../Dev/MPU6050/inv_mpu.h
 code\ioi2c.o: ../Dev/MPU6050/inv_mpu_dmp_motion_driver.h
 code\ioi2c.o: ../Dev/MPU6050/mpu6050.h
 code\ioi2c.o: ../Bsp/Inc/sys.h
+code\ioi2c.o: ../Bsp/Inc/data.h
 code\ioi2c.o: ../Bsp/Inc/ioi2c.h
 code\ioi2c.o: ../Dev/MPU6050/dmpKey.h
 code\ioi2c.o: ../Dev/MPU6050/dmpmap.h

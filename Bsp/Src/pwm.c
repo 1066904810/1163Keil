@@ -1,5 +1,9 @@
 #include "pwm.h"
+/*
+	使用舵机时：psc=7199 arr=199
+	BLDC无刷电机：psc=71 arr=19
 
+*/
 void Bsp_PWM_Start(bsp_pwm_channel_t ch)
 {
 	  HAL_TIM_PWM_Start(bsp_pwm_map[ch].tim, bsp_pwm_map[ch].channel);

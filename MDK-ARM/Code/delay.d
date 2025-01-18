@@ -36,6 +36,7 @@ code\delay.o: ../Dev/MPU6050/inv_mpu.h
 code\delay.o: ../Dev/MPU6050/inv_mpu_dmp_motion_driver.h
 code\delay.o: ../Dev/MPU6050/mpu6050.h
 code\delay.o: ../Bsp/Inc/sys.h
+code\delay.o: ../Bsp/Inc/data.h
 code\delay.o: ../Bsp/Inc/ioi2c.h
 code\delay.o: ../Dev/MPU6050/dmpKey.h
 code\delay.o: ../Dev/MPU6050/dmpmap.h
