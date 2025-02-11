@@ -3,7 +3,7 @@
 <title>Static Call Graph - [Code\Code.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image Code\Code.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sat Jan 18 17:28:46 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sun Jan 19 02:12:28 2025
 <BR><P>
 <H3>Maximum Stack Usage =        332 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -765,7 +765,7 @@ Global Symbols
 <P><STRONG><a name="[7]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.DebugMon_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[7d]"></a>DevInit</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, deskboard.o(i.DevInit))
+<P><STRONG><a name="[7d]"></a>DevInit</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, deskboard.o(i.DevInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 324<LI>Call Chain = DevInit &rArr; DMP_Init &rArr; run_self_test &rArr; mpu_run_self_test &rArr; mpu_set_dmp_state &rArr; mpu_set_sample_rate &rArr; mpu_lp_accel_mode &rArr; mpu_configure_fifo &rArr; mpu_reset_fifo &rArr; i2cWrite &rArr; IIC_Wait_Ack &rArr; IIC_Stop &rArr; delay_us
 </UL>
 <BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMP_Init
@@ -864,7 +864,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIDCalculate
 </UL>
 
-<P><STRONG><a name="[8a]"></a>GetData</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, deskboard.o(i.GetData))
+<P><STRONG><a name="[8a]"></a>GetData</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, deskboard.o(i.GetData))
 <BR><BR>[Stack]<UL><LI>Max Depth = 316<LI>Call Chain = GetData &rArr; Read_DMP &rArr; dmp_read_fifo &rArr; mpu_read_fifo_stream &rArr; mpu_reset_fifo &rArr; i2cWrite &rArr; IIC_Wait_Ack &rArr; IIC_Stop &rArr; delay_us
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_DMP

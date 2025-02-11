@@ -41,7 +41,7 @@ void ParamInit(void)
 	BLDCMotor_Start(&BottoMoto); //电机引脚初始化，开启PWM输出
 	
 	
-	pid.Config.Kp=50;
+	pid.Config.Kp=10;
 	pid.Config.Ki=0.0;
 	pid.Config.Kd=0.0;
 	pid.Config.Improve=PID_IMPROVE_NONE;
@@ -53,7 +53,7 @@ void ParamInit(void)
 void DevInit(void)
 {	
   DMP_Init(MPU_Low.addr);		//dmp初始化
-//	DMP_Init(MPU_High.addr);		//dmp初始化
+	DMP_Init(MPU_High.addr);		//dmp初始化
 
 	Bsp_PWM_Start(BSP_PWM_SERVO_C);
 	Bsp_PWM_Start(BSP_PWM_SERVO_D);
@@ -85,7 +85,9 @@ void Control(void)
 				mode_select=BOARD_PARALLEL;
 			break;
 		case 	BOARD_HORIZON:
-			set=PIDCalculate(&pid,MPU_Low.eulr.Roll,0);
+			set=PIDCalculate(&pid,MPU_High.eulr.Roll,0);
+//			if(!Bsp_GPIO_ReadPin(BSP_GPIO_B8) || !Bsp_GPIO_ReadPin(BSP_GPIO_B9))
+//				set=0;
 			if(	Screen_ModeProcess()==MODE_2)
 				mode_select=BOARD_PARALLEL;
 			if(	Screen_ModeProcess()==MODE_STOP)
@@ -100,9 +102,9 @@ void Control(void)
 	
 	}
 //	DControl(&LinearMotor,set);
-	BLDControl(&AdjMoto,set);
+	BLDControl(&AdjMoto,-set);
 //	delay_ms(1);
-	BLDC_TrigCtrl(&BottoMoto,angle*10-500);
+	BLDC_TrigCtrl(&BottoMoto,angle*10);
 
 //	Bsp_GPIO_WritePin(BSP_GPIO_B12,GPIO_PIN_SET);
 //	Bsp_GPIO_WritePin(BSP_GPIO_B14,GPIO_PIN_RESET);
@@ -113,7 +115,7 @@ void Control(void)
 void GetData(void)
 {
 	Read_DMP(&MPU_Low);
-//	Read_DMP(&MPU_High);
+	Read_DMP(&MPU_High);
 	BLDC_GetEncoder(&BottoMoto);
 	Screen_DataProcess();
 //	HAL_ADC_Start_DMA(&hadc1,(uint32_t*)ADC_Value,sizeof(ADC_Value)/sizeof(ADC_Value[0]));
