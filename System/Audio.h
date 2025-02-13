@@ -1,5 +1,5 @@
-#ifndef __DESKBOARD_H
-#define __DESKBOARD_H
+#ifndef __AUDIO_H
+#define __AUDIO_H
 #include "main.h"
 #include "sys.h"
 #include "data.h"
@@ -15,14 +15,19 @@
 #include "DCmotor.h"
 #include "BLDCMotor.h"
 #include "usart_screen.h"
-typedef enum{
 
-	BOARD_RETRACT,
-	BOARD_RESET,
-	BOARD_CONTROL,
-	BOARD_HORIZON,
-	BOARD_PARALLEL
+typedef enum{
+	AUDIO_UP,
+	AUDIO_DOWN,
+	AUDIO_RESET,
+	AUDIO_PAUSE,
 }Mode;
+
+typedef enum{
+	Key_Detect,
+	Key_Pressed,
+
+}KeyMode;
 
 extern ADC_HandleTypeDef hadc1;
 
@@ -36,6 +41,7 @@ void DevInit(void);
 void ParamInit(void);
 void Control(void);
 void GetData(void);
+void Key_Process(void);
 
 
 #endif

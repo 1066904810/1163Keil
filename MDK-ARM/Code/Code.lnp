@@ -32,8 +32,8 @@
 "code\dcmotor.o"
 "code\usart_screen.o"
 "code\bldcmotor.o"
-"code\deskboard.o"
 "code\delay.o"
+"code\audio.o"
 --library_type=microlib --strict --scatter "Code\Code.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

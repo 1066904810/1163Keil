@@ -9,6 +9,9 @@ typedef struct {
 } bsp_gpio_config_t;
 typedef GPIO_PinState bsp_gpio_state;
 typedef enum {
+	BSP_GPIO_A12,
+	BSP_GPIO_A15,
+	
 	BSP_GPIO_B6,//占用一个编码器
   BSP_GPIO_B8,
   BSP_GPIO_B9,
@@ -21,6 +24,8 @@ typedef enum {
 } bsp_gpio_t;
 
 static bsp_gpio_config_t bsp_gpio_map[BSP_GPIO_NUMBER] = {
+		[BSP_GPIO_A12] = 	{GPIOA, GPIO_PIN_12},
+    [BSP_GPIO_A15] = 	{GPIOA, GPIO_PIN_15},	
 		[BSP_GPIO_B6]  = 	{GPIOB, GPIO_PIN_6},
     [BSP_GPIO_B8]  = 	{GPIOB, GPIO_PIN_8},
     [BSP_GPIO_B9]	 = 	{GPIOB, GPIO_PIN_9},

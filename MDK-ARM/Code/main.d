@@ -44,7 +44,7 @@ code\main.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\math.h
 code\main.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\string.h
 code\main.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdio.h
 code\main.o: D:\Software\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
-code\main.o: ../System/DeskBoard.h
+code\main.o: ../System/Audio.h
 code\main.o: ../Bsp/Inc/pwm.h
 code\main.o: ../Bsp/Inc/enc.h
 code\main.o: ../Bsp/Inc/pid.h
