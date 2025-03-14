@@ -295,9 +295,9 @@ void DMP_Init(uint8_t addr)
 { 
 //   u8 temp[1]={0};
 //	 Flag_Show=1;
-//   i2cRead(0x68,0x75,1,temp);
+//   i2cRead(0x69,0x75,1,temp);
 //	 printf("mpu_set_sensor complete ......\r\n");
-//	if(temp[0]!=0x68)NVIC_SystemReset();
+//	if(temp[0]!=0x69)NVIC_SystemReset();
 	mpu_setaddr(addr);
 	mpu_init();
 	mpu_set_sensors(INV_XYZ_GYRO | INV_XYZ_ACCEL);

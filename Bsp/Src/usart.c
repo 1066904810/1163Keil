@@ -1,5 +1,5 @@
 #include "usart.h"
-
+#include "stdio.h"
 #define RX_MAXSIZE 5
 uint8_t rxbuf[RX_MAXSIZE];
 uint8_t test_string[]="ok!";
@@ -16,4 +16,13 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 				
   }
 
+}
+int fputc(int ch, FILE *f)
+ 
+{
+ 
+  HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xffff);
+ 
+  return ch;
+ 
 }

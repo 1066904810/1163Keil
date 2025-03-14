@@ -21,7 +21,8 @@ typedef enum{
 	BOARD_RESET,
 	BOARD_CONTROL,
 	BOARD_HORIZON,
-	BOARD_PARALLEL
+	BOARD_PARALLEL,
+	BOARD_UPLIMIT
 }Mode;
 
 extern ADC_HandleTypeDef hadc1;

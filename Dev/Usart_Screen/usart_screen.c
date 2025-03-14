@@ -20,12 +20,14 @@ screen_mode_t Screen_ModeProcess(void)
 	}
 	return MODE_RESERVE;
 }
-uint8_t angle;
+uint8_t angle=50,kp=0;
 void Screen_DataProcess(void)
 {
 
 	if(rxbuf[0]==0x02&&rxbuf[1]==0x00)
 		angle = rxbuf[2];
+	if(rxbuf[0]==0x03&&rxbuf[1]==0x00)
+		kp = rxbuf[2];
 
 //	return DEFAULT_ANGLE;
 }
