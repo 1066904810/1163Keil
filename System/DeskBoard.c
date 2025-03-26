@@ -118,8 +118,10 @@ void Control(void)
 			{
 				set=0;
 				if(	ctrl_mode==MODE_STOP)
+				{
 					mode_select=BOARD_RETRACT;
-				break;
+					break;
+				}
 			}
 			else
 			{
