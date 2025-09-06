@@ -73,13 +73,14 @@ void Control(void)
 	{
 		case 	BOARD_RETRACT:
 			set=800;
-			if(!Bsp_GPIO_ReadPin(BSP_GPIO_B8))
-				mode_select=BOARD_RESET;
 			if(ADC_Value[0]<2000)
 			{
 				last_mode=mode_select;
 				mode_select=BOARD_PAUSE;
+				return;
 			}
+			if(!Bsp_GPIO_ReadPin(BSP_GPIO_B8))
+				mode_select=BOARD_RESET;
 			break;
 		case 	BOARD_RESET:
 			set=0;
@@ -94,16 +95,16 @@ void Control(void)
 				mode_select=BOARD_PARALLEL;
 			break;
 		case 	BOARD_HORIZON:
-			if(!Bsp_GPIO_ReadPin(BSP_GPIO_B9))
-			{
-				last_mode=mode_select;
-				mode_select=BOARD_UPLIMIT;
-			}
-			
 			if(ADC_Value[0]<2000)
 			{
 				last_mode=mode_select;
 				mode_select=BOARD_PAUSE;
+				return;
+			}
+			if(!Bsp_GPIO_ReadPin(BSP_GPIO_B9))
+			{
+				last_mode=mode_select;
+				mode_select=BOARD_UPLIMIT;
 			}
 			if(	ctrl_mode==MODE_2)
 				mode_select=BOARD_PARALLEL;
