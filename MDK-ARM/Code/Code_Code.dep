@@ -1,7 +1,7 @@
 Dependencies for Project 'Code', Target 'Code': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (startup_stm32f103xb.s)(0x67D27688)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 541" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o code\startup_stm32f103xb.o --depend code\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x67D276C9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\main.o --omf_browse code\main.crf --depend code\main.d)
+F (startup_stm32f103xb.s)(0x67E4BE50)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 541" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o code\startup_stm32f103xb.o --depend code\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x68AD8914)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\main.o --omf_browse code\main.crf --depend code\main.d)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -45,16 +45,16 @@ I (D:\Software\Keil\ARM\ARMCC\include\math.h)(0x5F63877C)
 I (D:\Software\Keil\ARM\ARMCC\include\string.h)(0x5F63878A)
 I (D:\Software\Keil\ARM\ARMCC\include\stdio.h)(0x5F63877C)
 I (D:\Software\Keil\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
-I (../System/DeskBoard.h)(0x67CF9985)
+I (../System/DeskBoard.h)(0x68ADABEF)
 I (../Bsp/Inc/pwm.h)(0x6774AC50)
 I (../Bsp/Inc/enc.h)(0x675C40D9)
 I (../Bsp/Inc/pid.h)(0x676AAEA8)
-I (../Bsp/Inc/gpio.h)(0x67CA546C)
-I (../Bsp/Inc/usart.h)(0x67D276A9)
+I (../Bsp/Inc/gpio.h)(0x68AD271F)
+I (../Bsp/Inc/usart.h)(0x68AD271F)
 I (../Dev/DCMotor/DCmotor.h)(0x6786650B)
 I (../Dev/BLDC/BLDCMotor.h)(0x678B4616)
 I (../Dev/Usart_Screen/usart_screen.h)(0x678B39CC)
-F (../Core/Src/stm32f1xx_it.c)(0x6788AC81)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\stm32f1xx_it.o --omf_browse code\stm32f1xx_it.crf --depend code\stm32f1xx_it.d)
+F (../Core/Src/stm32f1xx_it.c)(0x67E4BE50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\stm32f1xx_it.o --omf_browse code\stm32f1xx_it.crf --depend code\stm32f1xx_it.d)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -85,8 +85,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6747FAA6)
-I (../Core/Inc/stm32f1xx_it.h)(0x6788AC81)
-F (../Core/Src/stm32f1xx_hal_msp.c)(0x67D27687)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\stm32f1xx_hal_msp.o --omf_browse code\stm32f1xx_hal_msp.crf --depend code\stm32f1xx_hal_msp.d)
+I (../Core/Inc/stm32f1xx_it.h)(0x67E4BE50)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x68AD271F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\stm32f1xx_hal_msp.o --omf_browse code\stm32f1xx_hal_msp.crf --depend code\stm32f1xx_hal_msp.d)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -739,8 +739,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6747FAA6)
-F (..\Bsp\Src\gpio.c)(0x6786650B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\gpio.o --omf_browse code\gpio.crf --depend code\gpio.d)
-I (../Bsp/Inc/gpio.h)(0x67CA546C)
+F (..\Bsp\Src\gpio.c)(0x67EA0592)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\gpio.o --omf_browse code\gpio.crf --depend code\gpio.d)
+I (../Bsp/Inc/gpio.h)(0x68AD271F)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -771,8 +771,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6747FAA6)
-F (..\Bsp\Src\usart.c)(0x67D27628)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\usart.o --omf_browse code\usart.crf --depend code\usart.d)
-I (../Bsp/Inc/usart.h)(0x67D276A9)
+F (..\Bsp\Src\usart.c)(0x68AD271F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\usart.o --omf_browse code\usart.crf --depend code\usart.d)
+I (../Bsp/Inc/usart.h)(0x68AD271F)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -891,7 +891,7 @@ I (D:\Software\Keil\ARM\ARMCC\include\math.h)(0x5F63877C)
 I (D:\Software\Keil\ARM\ARMCC\include\string.h)(0x5F63878A)
 I (D:\Software\Keil\ARM\ARMCC\include\stdio.h)(0x5F63877C)
 I (D:\Software\Keil\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
-F (..\Dev\MPU6050\MPU6050.c)(0x67D3A794)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\mpu6050.o --omf_browse code\mpu6050.crf --depend code\mpu6050.d)
+F (..\Dev\MPU6050\MPU6050.c)(0x68AD271F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\mpu6050.o --omf_browse code\mpu6050.crf --depend code\mpu6050.d)
 I (..\Dev\MPU6050\MPU6050.h)(0x678A3D4E)
 I (../Bsp/Inc/sys.h)(0x6784C1EB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6747FAA6)
@@ -969,10 +969,10 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6747FAA6)
 I (../Bsp/Inc/enc.h)(0x675C40D9)
 I (../Bsp/Inc/pwm.h)(0x6774AC50)
-I (../Bsp/Inc/gpio.h)(0x67CA546C)
-F (..\Dev\Usart_Screen\usart_screen.c)(0x67D32B77)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\usart_screen.o --omf_browse code\usart_screen.crf --depend code\usart_screen.d)
+I (../Bsp/Inc/gpio.h)(0x68AD271F)
+F (..\Dev\Usart_Screen\usart_screen.c)(0x68AD271F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\usart_screen.o --omf_browse code\usart_screen.crf --depend code\usart_screen.d)
 I (..\Dev\Usart_Screen\usart_screen.h)(0x678B39CC)
-I (../Bsp/Inc/usart.h)(0x67D276A9)
+I (../Bsp/Inc/usart.h)(0x68AD271F)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -1037,10 +1037,10 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6747FAA6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6747FAA6)
 I (../Bsp/Inc/enc.h)(0x675C40D9)
 I (../Bsp/Inc/pwm.h)(0x6774AC50)
-I (../Bsp/Inc/gpio.h)(0x67CA546C)
+I (../Bsp/Inc/gpio.h)(0x68AD271F)
 I (../Bsp/Inc/data.h)(0x678B4022)
-F (..\System\DeskBoard.c)(0x67D3AE55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\deskboard.o --omf_browse code\deskboard.crf --depend code\deskboard.d)
-I (..\System\DeskBoard.h)(0x67CF9985)
+F (..\System\DeskBoard.c)(0x68ADAC7F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../System -I ../Bsp/Inc -I ../Dev/MPU6050 -I ../Dev/DCMotor -I ../Dev/Usart_Screen -I ../Dev/BLDC-I.\RTE\_Code-IC:\Users\bilimelon\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\bilimelon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o code\deskboard.o --omf_browse code\deskboard.crf --depend code\deskboard.d)
+I (..\System\DeskBoard.h)(0x68ADABEF)
 I (../Core/Inc/main.h)(0x674C1380)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6747FAA6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6788AC81)
@@ -1087,8 +1087,8 @@ I (..\System\delay.h)(0x67556DD8)
 I (../Bsp/Inc/pwm.h)(0x6774AC50)
 I (../Bsp/Inc/enc.h)(0x675C40D9)
 I (../Bsp/Inc/pid.h)(0x676AAEA8)
-I (../Bsp/Inc/gpio.h)(0x67CA546C)
-I (../Bsp/Inc/usart.h)(0x67D276A9)
+I (../Bsp/Inc/gpio.h)(0x68AD271F)
+I (../Bsp/Inc/usart.h)(0x68AD271F)
 I (../Dev/DCMotor/DCmotor.h)(0x6786650B)
 I (../Dev/BLDC/BLDCMotor.h)(0x678B4616)
 I (../Dev/Usart_Screen/usart_screen.h)(0x678B39CC)

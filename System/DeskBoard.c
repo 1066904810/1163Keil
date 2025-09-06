@@ -75,6 +75,11 @@ void Control(void)
 			set=800;
 			if(!Bsp_GPIO_ReadPin(BSP_GPIO_B8))
 				mode_select=BOARD_RESET;
+			if(ADC_Value[0]<2000)
+			{
+				last_mode=mode_select;
+				mode_select=BOARD_PAUSE;
+			}
 			break;
 		case 	BOARD_RESET:
 			set=0;
@@ -94,7 +99,12 @@ void Control(void)
 				last_mode=mode_select;
 				mode_select=BOARD_UPLIMIT;
 			}
-				
+			
+			if(ADC_Value[0]<2000)
+			{
+				last_mode=mode_select;
+				mode_select=BOARD_PAUSE;
+			}
 			if(	ctrl_mode==MODE_2)
 				mode_select=BOARD_PARALLEL;
 			if(	ctrl_mode==MODE_STOP)
@@ -129,6 +139,12 @@ void Control(void)
 					mode_select=last_mode;
 			}
 			break;
+		case BOARD_PAUSE:
+			set=0;
+			if(ADC_Value[0]>=2000)
+			{
+				mode_select=last_mode;
+			}
 		default:
 				set=0;
 			break;
@@ -158,7 +174,7 @@ void GetData(void)
 	BLDC_GetEncoder(&BottoMoto);
 	Screen_DataProcess();
 	ctrl_mode=Screen_ModeProcess();
-//	HAL_ADC_Start_DMA(&hadc1,(uint32_t*)ADC_Value,sizeof(ADC_Value)/sizeof(ADC_Value[0]));
+	HAL_ADC_Start_DMA(&hadc1,(uint32_t*)ADC_Value,sizeof(ADC_Value)/sizeof(ADC_Value[0]));
 
 }
 
